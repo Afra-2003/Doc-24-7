@@ -1,0 +1,178 @@
+/* PAGE LAYOUT */
+.profile-page .profile-container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  background: linear-gradient(to right, #dbe8ff, #eafff2);
+  min-height: 90vh;
+  flex-wrap: wrap;
+}
+
+/* PROFILE CARD */
+.profile-page .profile-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.profile-page .profile-card h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* PROFILE PHOTO */
+.profile-page .profile-photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.profile-page .profile-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #e6e6e6;
+}
+
+.profile-page .profile-photo input {
+  font-size: 12px;
+}
+
+/* INPUT FIELDS */
+.profile-page .profile-card label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.profile-page .profile-card input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+/* BUTTON */
+.profile-page .profile-card button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #6c7cff, #4c5eff);
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.profile-page .profile-card button:hover {
+  opacity: 0.9;
+}
+
+/* APPOINTMENT HISTORY */
+.profile-page .history-container {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profile-page .history-container h2 {
+  margin-bottom: 10px;
+}
+
+/* APPOINTMENT CARD */
+.profile-page .history-card {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  border: 2px solid #4c5eff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* DOCTOR IMAGE */
+.profile-page .doc-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #4c5eff;
+}
+
+/* INFO */
+.profile-page .history-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.profile-page .history-info h3 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.profile-page .spec {
+  color: #666;
+  font-size: 15px;
+}
+
+.profile-page .date,
+.profile-page .time {
+  font-size: 15px;
+  color: #333;
+}
+
+/* STATUS */
+.profile-page .status {
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+.status-green {
+  color: green;
+  background:#22c55e;
+}
+
+.status-red {
+  color: red;
+  background:#f2c5c5;
+}
+
+.status-blue {
+  color: blue;
+  background: rgb(207, 207, 247);
+}
+
+.status-yellow {
+  color: orange;
+}
+
+/* CANCEL BUTTON (optional, only if needed in other sections) */
+.profile-page .cancel-btn {
+  margin-top: 6px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #ff4d4d;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.profile-page .cancel-btn:hover {
+  background: #e60000;
+}

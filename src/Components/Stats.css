@@ -1,0 +1,58 @@
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  padding: 80px 10%;
+  background:#1b6aea;
+}
+
+/* CARD */
+
+.stat-card {
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 18px;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+  transition: 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.stat-card:hover {
+  transform: translateY(-10px) scale(1.05);
+}
+
+/* ICON */
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+/* TEXT */
+
+.stat-card h2 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.stat-card p {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .stats {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,45 @@
+.docnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 8%;
+  background: #eaefff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+/* LOGO */
+.docnav-logo img {
+  height: 55px;
+  border:none;
+}
+
+
+/* RIGHT */
+.docnav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* NAME */
+.docnav-name {
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px
+}
+
+/* LOGOUT BUTTON */
+.docnav-logout {
+  padding: 8px 14px;
+  border: none;
+  background: #ef4444;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size:16px;
+}
+
+.docnav-logout:hover {
+  background: #dc2626;
+}

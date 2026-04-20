@@ -1,0 +1,56 @@
+.front {
+  min-height: 100vh;
+  background: linear-gradient(to right, #dbe8ff, #eafff2);
+}
+
+.front-hero {
+  width:90%;
+  padding: 60px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.front-left h1 {
+  font-size: 46px;
+  margin-bottom: 12px;
+}
+
+.front-left span {
+  color: #005eff;
+}
+
+.front-left p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 25px;
+}
+
+.front-btns {
+  display: flex;
+  gap: 15px;
+}
+
+.front-btn {
+  padding: 12px 18px;
+  border: none;
+  background: #005eff;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.front-btn.outline {
+  background: transparent;
+  border: 2px solid #005eff;
+  color: #005eff;
+}
+
+.front-right img {
+  width: 700px;
+  height:500px;
+}
+.home-image{
+  background: transparent;
+}

@@ -1,0 +1,148 @@
+.all-doctors-page{
+display:flex;
+padding:40px 8%;
+gap:40px;
+background: linear-gradient(to right, #dbe8ff, #eafff2);
+}
+
+/* LEFT FILTER */
+
+.filter{
+width:220px;
+}
+
+.filter h3{
+margin-bottom:15px;
+}
+
+.filter p{
+cursor:pointer;
+margin-bottom:10px;
+color:#555;
+}
+
+.filter p:hover{
+color:#3a86ff;
+}
+
+/* RIGHT */
+
+.all-doctor-content{
+flex:1;
+}
+
+.search{
+width:100%;
+padding:12px;
+border-radius:8px;
+border:1px solid #ddd;
+margin-bottom:30px;
+}
+
+/* GRID */
+
+.all-doctor-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 per row */
+  gap: 25px;
+}
+
+
+/* CARD */
+
+.all-doctor-card {
+  background: #f8fbff;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  overflow: hidden; /* important */
+}
+
+.all-doctor-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+/* IMAGE */
+
+.all-doctor-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  background: #eef4ff;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+}
+
+
+/* INFO */
+
+.doctor-info {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* AVAILABLE */
+
+.available{
+color:green;
+font-size:13px;
+margin-bottom:6px;
+}
+
+/* NAME */
+
+.doctor-info h3{
+margin:0;
+font-size:18px;
+white-space:nowrap;
+}
+
+/* SPECIALIZATION */
+
+.spec{
+color:#777;
+font-size:14px;
+margin-top:4px;
+}
+
+/* EXPERIENCE */
+
+.exp{
+font-size:13px;
+color:#555;
+margin-top:6px;
+background:#f3f3f3;
+padding:4px 10px;
+border-radius:8px;
+}
+
+/* BOTTOM */
+
+.doctor-bottom{
+display:flex;
+justify-content:space-between;
+align-items:center;
+width:100%;
+margin-top:12px;
+padding:0 10px;
+}
+
+/* RATING */
+
+.rating{
+color:#f4a100;
+font-weight:500;
+}
+
+/* FEE */
+
+.fee{
+font-weight:bold;
+color:#2563eb;
+}

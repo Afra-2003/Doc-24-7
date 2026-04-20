@@ -1,0 +1,164 @@
+/* MAIN LAYOUT */
+.dashboard {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 250px;
+  background: linear-gradient(180deg,  #356fec,#27479e);
+
+
+  padding: 20px;
+  border-right: 1px solid #eee;
+}
+
+/* DOCTOR PROFILE */
+.doc-profile {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.doc-profile img {
+  width: 200px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  background: #eef4ff;
+}
+
+.doc-profile h3,p {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+/* MENU */
+.doc-menu p {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+  color: #ffffff;
+}
+
+.doc-menu p:hover {
+  background: #eaefff;
+  color: rgb(76, 76, 235);
+}
+
+.doc-menu .active {
+  background: #eaefff;
+  color: rgb(76, 76, 235);
+}
+
+/* CONTENT */
+.content {
+  flex: 1;
+  padding: 30px;
+  background: #f5f7fb;
+}
+
+/* CARD */
+.card {
+  display: flex;
+  gap: 20px;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.card img {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* STATUS */
+.status {
+  color: green;
+  font-weight: bold;
+}
+
+/* PROFILE BOX */
+.profile-box1{
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+
+}
+.profile-box1 p{
+  color:#000000;
+}
+.actions{
+  margin-top:10px;
+  display:flex;
+  gap:10px;
+}
+
+.accept{
+  background:#22c55e;
+  color:white;
+  border:none;
+  padding:6px 12px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.reject{
+  background:#ef4444;
+  color:white;
+  border:none;
+  padding:6px 12px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.complete{
+  background:#2563eb;
+  color:white;
+  border:none;
+  padding:6px 12px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+/* STATUS COLORS */
+.status.booked{ 
+    color:#ffffff;
+    background:#22c55e; 
+}
+.status.accepted{ 
+    color:green;
+    background:#22c55e; }
+.status.completed{ 
+    color: blue;
+  background: rgb(207, 207, 247);
+ }
+.status.rejected{ 
+     color: red;
+  background:#f2c5c5;
+ }
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+}
+
+.user-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.a-profile p{
+    color:#000000;
+}

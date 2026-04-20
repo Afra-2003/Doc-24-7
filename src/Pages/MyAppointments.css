@@ -1,0 +1,205 @@
+.my-appointments{
+padding:50px 10%;
+background:linear-gradient(to right, #dbe8ff, #eafff2);
+min-height:80vh;
+}
+
+.my-appointments h2{
+margin-bottom:30px;
+font-size:28px;
+}
+
+.empty{
+color:#777;
+font-size:18px;
+text-align:center;
+margin-top:50px;
+}
+
+/* CARD */
+
+.appointment-card{
+display:flex;
+align-items:center;
+gap:20px;
+background:white;
+padding:20px;
+border-radius:12px;
+margin-bottom:20px;
+border:1px solid #eee;
+transition:all 0.3s ease;
+}
+
+.appointment-card:hover{
+transform:translateY(-4px);
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+/* IMAGE */
+
+.appointment-card img{
+width:110px;
+height:110px;
+object-fit:cover;
+border-radius:10px;
+background:#eef4ff;
+}
+
+/* INFO */
+
+.appointment-info{
+flex:1;
+}
+
+.appointment-info h3{
+margin-bottom:5px;
+font-size:18px;
+}
+
+.appointment-info p{
+margin:2px 0;
+color:#555;
+}
+
+/* STATUS BADGE */
+
+.status{
+display:inline-block;
+margin-top:8px;
+padding:5px 12px;
+border-radius:20px;
+font-size:13px;
+font-weight:500;
+}
+
+.status.booked{
+background:#e6f7ed;
+color:#1a7f37;
+}
+
+.status.edited{
+background:#e8f1ff;
+color:#2563eb;
+}
+
+.status.cancelled{
+background:#ffe8e8;
+color:#dc2626;
+}
+
+/* ACTIONS */
+
+.appointment-actions{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+/* BUTTONS */
+
+.edit{
+background:#2563eb;
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:6px;
+cursor:pointer;
+transition:0.2s;
+}
+
+.edit:hover{
+background:#1d4ed8;
+}
+
+.cancel{
+background:#ef4444;
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:6px;
+cursor:pointer;
+transition:0.2s;
+}
+
+.cancel:hover{
+background:#dc2626;
+}
+
+.cancelled{
+background:#ffe8e8;
+color:#dc2626;
+border:none;
+padding:8px 15px;
+border-radius:6px;
+cursor:not-allowed;
+}
+
+/* MODAL */
+
+.modal{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.45);
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:1000;
+}
+
+.modal-content{
+background:white;
+padding:25px;
+border-radius:12px;
+width:300px;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.modal-content h3{
+text-align:center;
+}
+
+.modal-content input{
+padding:10px;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+.modal-buttons{
+display:flex;
+justify-content:space-between;
+}
+
+.save{
+background:#93f0b5;
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.close{
+background:#ef4444;
+color:white;
+border:none;
+padding:8px 15px;
+border-radius:6px;
+cursor:pointer;
+}
+.clear {
+  background: #4c5eff;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.clear:hover {
+  background: #2f3dff;
+}

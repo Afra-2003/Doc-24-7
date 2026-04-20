@@ -1,0 +1,90 @@
+{
+  "users": [
+    {
+      "fullName": "Afra Fathima",
+      "email": "afrafathima0403@gmail.com",
+      "password": "Afra@2003",
+      "id": 1
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Arun Kumar",
+      "speciality": "Cardiologist",
+      "location": "Chennai",
+      "experience": "10 Years",
+      "fee": 500,
+      "image": "https://cdn-icons-png.flaticon.com/512/3774/3774299.png"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Priya Sharma",
+      "speciality": "Dermatologist",
+      "location": "Coimbatore",
+      "experience": "7 Years",
+      "fee": 400,
+      "image": "https://cdn-icons-png.flaticon.com/512/3774/3774299.png"
+    },
+    {
+      "id": 3,
+      "name": "Dr. Rahman Ali",
+      "speciality": "Neurologist",
+      "location": "Madurai",
+      "experience": "12 Years",
+      "fee": 700,
+      "image": "https://cdn-icons-png.flaticon.com/512/3774/3774299.png"
+    },
+    {
+      "name": "Dr.Afra fathima",
+      "speciality": "Neurologist",
+      "location": "Pudukkottai",
+      "experience": "5 years",
+      "fee": 1200,
+      "image": "https://cdn-icons-png.flaticon.com/512/3774/3774299.png",
+      "id": 4
+    },
+    {
+      "name": "Dr.Ijaz Ahamed",
+      "speciality": "Cardiologist",
+      "location": "Guduvancherry",
+      "experience": "2 years",
+      "fee": 500,
+      "image": "https://cdn-icons-png.flaticon.com/512/3774/3774299.png",
+      "id": 5
+    },
+    {
+      "name": "Dr.Arsha",
+      "speciality": "Neurologist",
+      "location": "Pudukkottai",
+      "experience": "2 years",
+      "fee": 500,
+      "image": "https://cdn-icons-png.flaticon.com/512/3774/3774299.png",
+      "id": 6
+    }
+  ],
+  "appointments": [
+    {
+      "userId": 1,
+      "userName": "Afra Fathima",
+      "doctorId": 2,
+      "doctorName": "Dr. Priya Sharma",
+      "speciality": "Dermatologist",
+      "date": "2026-09-09",
+      "time": "11:00 AM",
+      "status": "Booked",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "userName": "Afra Fathima",
+      "doctorId": 4,
+      "doctorName": "Dr.Afra fathima",
+      "speciality": "Neurologist",
+      "date": "2026-02-20",
+      "time": "7:00 am",
+      "status": "Booked",
+      "id": 2
+    }
+  ]
+}

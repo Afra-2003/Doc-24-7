@@ -1,0 +1,58 @@
+.home-page {
+  min-height: 100vh;
+  background: #f5f8ff;
+}
+
+.home-container {
+  padding: 40px;
+}
+
+.home-container h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.search {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.doctor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.doctor-card {
+  background: white;
+  padding: 18px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.doctor-card img {
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+.fee {
+  font-weight: 900;
+  color: #2ecc71;
+  margin: 10px 0;
+}
+
+.book-btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  background: #005eff;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+}

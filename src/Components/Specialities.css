@@ -1,0 +1,70 @@
+.specialities{
+padding:60px 10%;
+background:#f6f9ff; 
+text-align:center;
+}
+
+.specialities-header h2{
+font-size:34px;
+color:#1c1c1c;
+margin-bottom:10px;
+}
+
+.specialities-header p{
+color:#666;
+margin-bottom:50px;
+font-size:16px;
+}
+
+/* GRID */
+
+.speciality-grid{
+display:grid;
+grid-template-columns:repeat(6,1fr);
+gap:30px;
+}
+
+/* CARD */
+
+.speciality-card{
+background:white;
+padding:35px 25px;
+border-radius:16px;
+box-shadow:0 8px 25px rgba(0,0,0,0.08);
+transition:all 0.3s ease;
+cursor:pointer;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+}
+
+/* HOVER EFFECT */
+
+.speciality-card:hover{
+transform:translateY(-10px);
+box-shadow:0 12px 35px rgba(0,0,0,0.12);
+}
+
+/* ICON */
+
+.speciality-icon{
+width:70px;
+height:70px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+background:linear-gradient(135deg,#3a86ff,#4cc9f0);
+color:white;
+font-size:28px;
+margin-bottom:15px;
+}
+
+/* TEXT */
+
+.speciality-card h3{
+font-size:18px;
+color:#333;
+font-weight:600;
+}

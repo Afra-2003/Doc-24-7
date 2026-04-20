@@ -1,0 +1,74 @@
+/* MAIN PAGE */
+.roleselect-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #eef2ff, #f0fff7);
+  text-align: center;
+  padding: 20px;
+}
+
+.roleselect-page h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.roleselect-page p {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+/* CONTAINER */
+.roleselect-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* CARD BASE */
+.roleselect-card {
+  width: 260px;
+  height: 170px;
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.roleselect-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* TEXT */
+.roleselect-card h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.roleselect-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* UNIQUE COLORS */
+.roleselect-user {
+  border-top: 6px solid #4f46e5;
+}
+
+.roleselect-doctor {
+  border-top: 6px solid #10b981;
+}
+
+.roleselect-admin {
+  border-top: 6px solid #ef4444;
+}
