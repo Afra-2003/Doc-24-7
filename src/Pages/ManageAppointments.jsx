@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./admin.css";
+import "./Admin.css";
 
 export default function ManageAppointments() {
 

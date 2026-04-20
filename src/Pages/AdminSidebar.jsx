@@ -1,5 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
-import "./admin.css";
+import "./Admin.css";
 
 export default function AdminSidebar() {
 
